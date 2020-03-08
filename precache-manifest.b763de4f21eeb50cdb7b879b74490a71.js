@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b83f572a6432d28bee2a",
-    "url": "/felles_handleliste/css/app.1c8e6dae.css"
+    "revision": "eea6caf1ebf426e4dd2c",
+    "url": "/felles_handleliste/css/about.6765b5c9.css"
+  },
+  {
+    "revision": "c56cc0e916194a8d54e6",
+    "url": "/felles_handleliste/css/app.a097e3ea.css"
   },
   {
     "revision": "2c627f419b9ea181be39",
     "url": "/felles_handleliste/css/chunk-vendors.391ed6f9.css"
   },
   {
-    "revision": "b675e79a3124c85bc8dbb96f4dfca05e",
+    "revision": "5b20c82003392d61aad431e5c7c6dff9",
     "url": "/felles_handleliste/index.html"
   },
   {
-    "revision": "9d3033e1e8f787668ffe",
-    "url": "/felles_handleliste/js/about.de20d5f8.js"
+    "revision": "eea6caf1ebf426e4dd2c",
+    "url": "/felles_handleliste/js/about.b4d7f2b9.js"
   },
   {
-    "revision": "b83f572a6432d28bee2a",
-    "url": "/felles_handleliste/js/app.8f82e4f2.js"
+    "revision": "c56cc0e916194a8d54e6",
+    "url": "/felles_handleliste/js/app.b926d471.js"
   },
   {
     "revision": "2c627f419b9ea181be39",

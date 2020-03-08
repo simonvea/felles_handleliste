@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/felles_handleliste/precache-manifest.1574fca4ab000efca2ae6ce67b59729d.js"
+  "/felles_handleliste/precache-manifest.b763de4f21eeb50cdb7b879b74490a71.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "handleliste"});
