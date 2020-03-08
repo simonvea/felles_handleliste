@@ -19,6 +19,9 @@ import { mapActions } from "vuex";
   methods: { ...mapActions(["logout", "init"]) }
 })
 export default class App extends Vue {
+  init!: () => void;
+  logout!: () => void;
+
   get loggedIn() {
     return this.$store.state.user.loggedIn;
   }

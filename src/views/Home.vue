@@ -14,6 +14,7 @@ import { Component } from "vue-property-decorator";
 import { mapActions } from "vuex";
 import AddTodo from "@/components/AddTodo.vue";
 import TodoItem from "@/components/TodoItem.vue";
+import { Todo } from "@/store/types";
 
 @Component({
   components: { AddTodo, TodoItem },
@@ -28,8 +29,12 @@ import TodoItem from "@/components/TodoItem.vue";
   }
 })
 export default class Home extends Vue {
+  fetchTodos!: () => void;
+  setDoneAsNotShow!: () => void;
+  saveTodos!: () => void;
+
   get todos() {
-    return this.$store.state.todos.filter(todo => !todo.notShow);
+    return this.$store.state.todos.filter((todo: Todo) => !todo.notShow);
   }
   created() {
     this.fetchTodos();

@@ -30,6 +30,7 @@ import { mapActions } from "vuex";
 })
 export default class AddTodo extends Vue {
   @Prop() private todo!: string;
+  addTodo!: (todoText: string) => void;
 
   todoText: string = this.todo || "";
 
