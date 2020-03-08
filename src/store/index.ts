@@ -97,8 +97,8 @@ export default new Vuex.Store({
       { commit, state },
       payload: { username: string; password: string }
     ) {
-      //login
       commit("startLogin", payload.username);
+      //login
       commit("loginSuccess", payload.username);
       localStorage.setItem("user", JSON.stringify(state.user));
       router.push({ name: "Home" });

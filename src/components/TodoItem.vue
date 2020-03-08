@@ -43,13 +43,15 @@ export default class TodoItem extends Vue {
 <style>
 .todo__item {
   list-style-type: none;
-  display: grid;
+  display: flex;
+  /* display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr; */
   border-bottom: 0.5px solid grey;
+  justify-content: space-around;
   width: 100vw;
-  margin: 4px 0;
-  padding: 4px 0;
+  margin: 4px;
+  padding: 4px;
 }
 
 .todo__input--done {
@@ -60,6 +62,7 @@ export default class TodoItem extends Vue {
   border: none;
   font-size: 20px;
   margin-top: -4px;
+  flex-basis: 3;
 }
 
 .todo__checkbox-flex-container {
