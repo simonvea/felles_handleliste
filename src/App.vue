@@ -5,7 +5,7 @@
     </main>
     <footer v-if="loggedIn" class="footer">
       <router-link to="/">Handleliste</router-link>|
-      <router-link to="/about">Fullførte</router-link>|
+      <router-link to="/finished">Fullførte</router-link>|
       <button @click="logout">Logg ut</button>
     </footer>
   </div>
